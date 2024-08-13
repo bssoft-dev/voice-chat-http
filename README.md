@@ -10,21 +10,21 @@ Client: RaspberryPi zero WiFi, of course it works better on the other devices, P
 
 ## How To Test
 1. Clone this repository
-```bash
+~~~bash
 git clone https://github.com/bssoft-dev/voice-chat-ws
-'''
+~~~
 2. Install Dependencies
-```bash
+~~~bash
 cd voice-chat-ws
 pip install requirements.txt
 cd client
 pip install requirements.txt
 cd ..
-```
+~~~
 3. Start Server  
-'''bash
+~~~bash
 python app.py
-'''
+~~~
 4. Create Room  
 - Open Web Browser, than connect [http://localhost:24015/docs](http://localhost:24015/docs)
 - Unfold /create_room API and Click `Try it out` button on the right top
@@ -32,7 +32,7 @@ python app.py
 - Click `Execute` button. It will show you "message": "Room 'test_room' created successfully".
 5. Start Client
 Open another terminal window and execute.
-```bash
+~~~bash
 cd client
 python client.py 
-```
+~~~

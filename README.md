@@ -30,7 +30,7 @@ python app.py
 - Unfold /create_room API and Click `Try it out` button on the right top
 - Replace "string" to "test_room" in the Request body
 - Click `Execute` button. It will show you "message": "Room 'test_room' created successfully".
-5. Start Client
+5. Start Client  
 Open another terminal window and execute.
 ~~~bash
 cd client
